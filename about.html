@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AArun</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>AArun Accounts</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="library.html">Library</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <footer id="main-footer">
+        
+        <p>AArun Accountancy Ltd., Unit J1 Durban Road, Bognor Regis, West Sussex, PO22 9QT</p>
+        <p>Copyright &copy; 2020 MedAppLive</p>
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+    </script>
+</body>
+
+</html>

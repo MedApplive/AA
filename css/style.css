@@ -1,0 +1,99 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    border-color: red;
+}
+
+#showcase {
+    background-image: url('../images/reception.jpg');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#showcase h1 {
+    text-shadow: 2px 2px #ffab00;
+    color: red;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 250px;
+}
+
+#showcase h3 {
+    color: red;
+    padding-top: 10px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+
+.pc {
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px #ffab00;
+}
+
+.pa {
+    color: white;
+}
+
+#h1 {
+    color: red;
+    padding-top: 10px;
+}
